@@ -17,7 +17,7 @@ client.on('ready', () => {
 	
 });
 	
-            var prefix = "3" ;
+
 	
 client.on('message', msg => {
 
