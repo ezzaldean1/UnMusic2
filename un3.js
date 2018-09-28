@@ -13,8 +13,13 @@ client.on('ready', () => {
   console.log(' Music Bot Is Online')
   console.log('---------------')
   client.user.setStatus("Online")
-    client.user.setActivity(" Type 3help",{type: 'WATCHING'})
+    client.user.setActivity(" Prestige Shop",{type: 'WATCHING'})
 	
+});
+client.on('ready', () => {
+
+    client.channels.find(c => c.id === '485083399573209099').join();
+
 });
 	
             var prefix = "3" ;
